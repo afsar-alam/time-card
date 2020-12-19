@@ -1,3 +1,4 @@
+window.onload = function(){
 
 const clock =setInterval(clocktiming,1000)
 
@@ -37,6 +38,8 @@ navigator.getBattery().then(function(battery){
 
 });
  
+}
+
 }
 
    
